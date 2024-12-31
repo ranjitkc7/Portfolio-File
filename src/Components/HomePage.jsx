@@ -4,13 +4,13 @@ import { FaArrowRight } from "react-icons/fa";
 
 const HomePage = () => {
   return (
-    <div className="flex gap-[6rem] text-[white] bg-[#14213d] h-[100vh]">
-      <section className="flex flex-col pt-[8rem] pl-[4rem]">
-        <p className="font-[550] text-[1.1rem] ">
+    <div className="md:flex gap-[6rem] text-[white] bg-[#14213d] h-[100vh]">
+      <section className="flex flex-col pt-[1rem] md:pt-[8rem] pl-[1rem] md:pl-[4rem]">
+        <p className="font-[550] md:text-[1.1rem] ">
           "Bringing ideas to life through code and design."
         </p>
-        <h1 className="font-[700] text-[3rem] text-[#fca311]">Hello,</h1>
-        <h1 className="font-[800] text-[3.1rem] mt-[-20px]">
+        <h1 className="font-[700] text-[2.4rem] md:text-[3rem] text-[#fca311]">Hello,</h1>
+        <h1 className="font-[800] text-[2.5rem] md:text-[3.1rem] mt-[-16px] md:mt-[-20px]">
           I Am Ranjit K.C.
         </h1>
         <p className="font-[600] text-[2rem] text-slate-100">

@@ -6,8 +6,8 @@ import { FaGithub } from "react-icons/fa6";
 
 const ImageSec = () => {
   return (
-    <div className=" pt-[3rem] flex relative">
-      <div className="h-[28rem] flex  relative w-[28rem] overflow-hidden bg-[#0e53ae] rounded-[50%]">
+    <div className="pt-[2rem]  md:pt-[3rem] flex relative">
+      <div className=" h-[20rem] w-[20rem] ml-[2rem] md:h-[28rem] flex  relative md:w-[28rem] overflow-hidden bg-[#0e53ae] rounded-[50%]">
         <img
           className="mt-[-2.5rem]  absolute  rotate-3"
           src="my116.png"
@@ -22,28 +22,28 @@ const ImageSec = () => {
       </div>
       <button
         className="h-[2.5rem] rounded-md flex items-center justify-center
-       absolute  left-0 w-[2.8rem] bg-white hover:bg-transparent"
+       absolute left-5 md:left-0 w-[2.8rem] bg-white hover:bg-transparent"
        onClick={() => (window.location.href = "https://www.facebook.com/profile.php?id=100070581900744")}
       >
         <FaFacebook className="text-black text-[2rem] hover:text-[#fca311]" />
       </button>
       <button
         className="h-[2.5rem] rounded-md flex items-center justify-center
-       absolute top- right-0 w-[2.8rem] bg-white hover:bg-transparent"
+       absolute right-5 md:right-0 w-[2.8rem] bg-white hover:bg-transparent"
        onClick={() => (window.location.href = "https://www.instagram.com/ran_jit_kc/")}
       >
        <FaInstagramSquare className="text-black text-[2rem] hover:text-[#fca311]"  />
       </button>
       <button
         className="h-[2.5rem] rounded-md flex items-center justify-center
-       absolute bottom-0  left-0 w-[2.8rem] bg-white hover:bg-transparent"
+       absolute bottom-0 left-5  md:left-0 w-[2.8rem] bg-white hover:bg-transparent"
        onClick={() => (window.location.href = "https://github.com/ranjitkc7")}
       >
         <FaGithub className="text-black text-[2rem] hover:text-[#fca311]"/>
       </button>
       <button
         className="h-[2.5rem] rounded-md flex items-center justify-center
-       absolute bottom-0 right-0 w-[2.8rem] bg-white hover:bg-transparent"
+       absolute bottom-0 right-5 md:right-0 w-[2.8rem] bg-white hover:bg-transparent"
        onClick={() => (window.location.href = "https://www.linkedin.com/in/ranjit-k-c-7209362b4/")}
       >
        <FaLinkedin className="text-black text-[2rem] hover:text-[#fca311]" />
